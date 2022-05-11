@@ -24,7 +24,7 @@ const DigitalAgency = () => (
         <OurServices />
         <DigitalAgencyFunFacts />
         <Projects />
-        <PricingStyleThree />
+        {/* <PricingStyleThree /> */}
         <FeedbackStyleThree />
         <BlogPostStyleTwo />
         <CTAStyleTwo />
