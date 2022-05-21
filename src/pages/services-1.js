@@ -13,7 +13,8 @@ import p3 from "../assets/picture/image 3.png"
 import p4 from "../assets/picture/image 4.png"
 import p5 from "../assets/picture/image 5.png"
 import p6 from "../assets/picture/image 6.png"
-import p7 from "../assets/picture/image 7.png"
+import p7 from "../assets/picture/image 7.png" 
+import devops from "../assets/picture/devops.png" 
 const Services1 = () => (
     <Layout>
         <SEO title="Services" /> 
@@ -129,7 +130,7 @@ const Services1 = () => (
                         </div>
                     </div>
 
-                    {/* <div className="col-lg-4 col-sm-6">
+                    <div className="col-lg-4 col-sm-6">
                         <div className="single-services-box">
                         <div className="icon" style={{overflow:"hidden"}}>
                             <img src={p1} alt="" />
@@ -141,12 +142,12 @@ const Services1 = () => (
                             </h3>
                             <p>IoT presents a powerful mechanism to connect various objects with the internet and take advantage of smart technology.</p>
                         </div>
-                    </div> */}
+                    </div>
 
                     <div className="col-lg-4 col-sm-6">
                         <div className="single-services-box">
                         <div className="icon" style={{overflow:"hidden"}}>
-                            <img src={p1} alt="" />
+                            <img src={devops} alt="" />
                             </div>
                             <h3>
                                 <Link to="/devops">
