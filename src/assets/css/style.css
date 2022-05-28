@@ -11021,4 +11021,16 @@ Go Top CSS
     transform: scale(1);
   }
 }
-
+.new_project_mobile{
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+.new_project{
+  display: none;
+}
+.new_project_mobile{
+  display: flex;
+  flex-direction: column;
+  margin-top: 130px;
+}
+}

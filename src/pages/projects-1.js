@@ -3,9 +3,8 @@ import Layout from "../components/_App/layout"
 import SEO from "../components/_App/seo"
 import Navbar from "../components/_App/Navbar"
 import Footer from "../components/_App/Footer"
-import PageBanner from "../components/Common/PageBanner"
 import * as Icon from "react-feather"
-import { Link } from "gatsby"
+
 
 // Works Images
 import WorksImage1 from "../assets/images/works-image/works-image1.jpg"
@@ -18,9 +17,6 @@ import WorksImage7 from "../assets/images/works-image/works-image7.jpg"
 import WorksImage8 from "../assets/images/works-image/works-image8.jpg"
 import WorksImage9 from "../assets/images/works-image/works-image9.jpg"
 
-// Shape Images
-import Shape2 from "../assets/images/shape2.svg"
-import Shape4 from "../assets/images/shape4.svg"
 import { useState } from "react"
 
 const Projects1 = () => {
@@ -131,6 +127,46 @@ const Projects1 = () => {
                   </div>
                 </div>
               </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div
+      
+        className=" new_project_mobile  pb-50 mt-10"
+      >
+    
+        <div className="">
+          {projectArray.map((item, ind) => (
+            <div
+        
+          
+            >
+               <img
+            key={ind}
+        
+              src={item.image}
+              style={{ width: "100%", height: "100%", objectFit: "cover" }}
+              alt=""
+            />
+         <div>
+         <div className=" pt-4">
+                <span>
+                  <span className=" item_title">{item.title}</span>
+                  <div className=" item_title_border"></div>
+                </span>
+              </div>
+              <div >
+                <span className=" item_desc">
+                  {item.description}
+                </span>
+                <div>
+                  <div>
+                    <Icon.ArrowRight className="animated_icon" />
+                  </div>
+                </div>
+              </div>
+         </div>
             </div>
           ))}
         </div>

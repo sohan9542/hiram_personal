@@ -71,11 +71,11 @@ const Navbar = () => {
                                         Projects
                                     </Link>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                     <Link to="/blog-1" activeClassName="active" onClick={toggleNavbar} className="nav-link">
                                         News
                                     </Link>
-                            </li>
+                            </li> */}
                             <li className="nav-item">
                                     <Link to="/contact" activeClassName="active" onClick={toggleNavbar} className="nav-link">
                                         Contact
