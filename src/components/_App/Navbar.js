@@ -32,7 +32,7 @@ const Navbar = () => {
                 <div className="container">
                     <nav className="navbar navbar-expand-md navbar-light">
                         <Link to="/digital-agency" onClick={toggleNavbar} className="navbar-brand">
-                            <img src={Logo} alt="logo" />
+                            <img src={Logo} style={{height:"100%", width:"100%", objectFit:"contain"}} alt="logo" />
                         </Link>
 
                         <button 
